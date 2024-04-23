@@ -13,7 +13,7 @@ var jwt = require('jsonwebtoken');
 var cors = require('cors');
 var User = require('./Users');
 var Movie = require('./Movies');
-
+var test = 0;
 var app = express();
 app.use(cors());
 app.use(bodyParser.json());
